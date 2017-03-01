@@ -6,7 +6,7 @@ Created on Feb 16, 2017
 ##Features usefulness and correlation 
 ##Avoid useless features and make use of independent features 
 ##Dont use multiple features of same kind 
-
+##Simpler features relationship are easier to learn and does not make it complex
 import numpy as np
 import matplotlib.pyplot as plt
 
