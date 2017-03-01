@@ -20,3 +20,8 @@ clf.fit(X_train, y_train)
 
 pred=clf.predict(X_test)
 print pred
+
+from sklearn.metrics import accuracy_score
+accuracy=accuracy_score(y_test,pred)
+print accuracy
+
