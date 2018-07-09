@@ -10,3 +10,4 @@ Let’s take a look at three different learning styles in machine learning algor
 Algorithms Grouped By Similarity:
 
 1.Regression Algorithms
+2.Regularization Algorithms
