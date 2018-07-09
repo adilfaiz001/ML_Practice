@@ -7,7 +7,12 @@ Let’s take a look at three different learning styles in machine learning algor
 1. Supervised Learning
 2. Unsupervised Learning
 
+![Classification of algorithms under learning styles category](https://cdn-images-1.medium.com/max/477/1*KFQI59Yv7m1f3fwG68KSEA.jpeg)
+
 Algorithms Grouped By Similarity:
 
 1. Regression Algorithms
 2. Regularization Algorithms
+
+
+![Classification of algorithms under similarity group](https://steemitimages.com/DQmRux18T45yRdBCptRfSYqPqv33AQKAH4Fsd9bjeFYi6Lf/tour_ML.png)
