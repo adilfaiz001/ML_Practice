@@ -1,3 +1,14 @@
+'''
+Single variable linear regression model  
+y = b0 + b1 * x
+
+b1 = sum((x(i) - mean(x)) * (y(i) - mean(y))) / sum( (x(i) - mean(x))^2 )
+b0 = mean(y) - b1 * mean(x)
+
+b1 = covariance(x, y) / variance(x)
+b0 = mean(y) - b1 * mean(x)
+
+'''
 
 
 # Simple Linear Regression on the Swedish Insurance Dataset
