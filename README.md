@@ -13,7 +13,13 @@ Algorithms Grouped By Similarity:
 1. Regression Algorithms
      * Simple Linear Regression
      * Linear Regression
+     * logistic Regression 
+
 2. Regularization Algorithms
+     * Ridge Regression
+     * Least Absolute Shrinkage and Selection Operator(LASSO) Regression 
+     * Elastic Net
+     * Least Angle Regression
 
 
 ![Classification of algorithms under similarity group](https://steemitimages.com/DQmRux18T45yRdBCptRfSYqPqv33AQKAH4Fsd9bjeFYi6Lf/tour_ML.png)
