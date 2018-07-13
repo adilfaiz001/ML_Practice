@@ -37,10 +37,17 @@ def dataset_minmax(dataset):
  
 # Rescale dataset columns to the range 0-1
 def normalize_dataset(dataset, minmax):
+	d=0
 	for row in dataset:
 		for i in range(len(row)):
-			row[i] = (row[i] - minmax[i][0]) / (minmax[i][1] - minmax[i][0])
- 
+			row[i] = (row[i] - minmax[i][0])
+			#row[i]=row[i] / (minmax[i][1] - minmax[i][0])
+		if d == 0 :
+			l=row
+			d=1
+			
+ 	print row
+ 	
 # Split a dataset into k folds
 def cross_validation_split(dataset, n_folds):
 	dataset_split = list()

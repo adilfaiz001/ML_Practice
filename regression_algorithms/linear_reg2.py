@@ -16,8 +16,14 @@ def load_data(filename):
                 continue
             dataset.append(row[0].split(','))
     dataset = np.array(dataset)
-    print dataset.shape
+    dataset=dataset.astype(np.float)
     return dataset
-
+def normalize_dataset(dataset):
+    max_col=np.max(dataset, axis = 0)
+    min_col=np.min(dataset, axis = 0)
+    dataset = dataset - min_col 
+    print dataset[0]
     
-load_data('winequality-white.csv')
+    
+df = load_data('winequality-white.csv')
+normalize_dataset(df)
