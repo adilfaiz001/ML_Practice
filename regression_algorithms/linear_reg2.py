@@ -18,12 +18,21 @@ def load_data(filename):
     dataset = np.array(dataset)
     dataset=dataset.astype(np.float)
     return dataset
+
 def normalize_dataset(dataset):
     max_col=np.max(dataset, axis = 0)
     min_col=np.min(dataset, axis = 0)
-    dataset = dataset - min_col 
-    print dataset[0]
+
+    dataset = np.divide(dataset-min_col,max_col-min_col)
+    return dataset
+
+def cross_validation_split(dataset,n_splits):
     
+
+def predict(x,parameters):
+    
+
+
     
 df = load_data('winequality-white.csv')
-normalize_dataset(df)
+df = normalize_dataset(df)

@@ -1,6 +1,6 @@
 '''
 **Iterating element implementation.**
-Wine Quality prediction
+Wine Quality predictions
 
 '''
 # Linear Regression With Stochastic Gradient Descent for Wine Quality
@@ -37,17 +37,10 @@ def dataset_minmax(dataset):
  
 # Rescale dataset columns to the range 0-1
 def normalize_dataset(dataset, minmax):
-	d=0
 	for row in dataset:
 		for i in range(len(row)):
-			row[i] = (row[i] - minmax[i][0])
-			#row[i]=row[i] / (minmax[i][1] - minmax[i][0])
-		if d == 0 :
-			l=row
-			d=1
-			
- 	print row
- 	
+			row[i] = (row[i] - minmax[i][0]) / (minmax[i][1] - minmax[i][0])
+ 
 # Split a dataset into k folds
 def cross_validation_split(dataset, n_folds):
 	dataset_split = list()
@@ -128,6 +121,7 @@ for i in range(len(dataset[0])):
 # normalize
 minmax = dataset_minmax(dataset)
 normalize_dataset(dataset, minmax)
+
 # evaluate algorithm
 n_folds = 5
 l_rate = 0.01
