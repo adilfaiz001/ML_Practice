@@ -26,10 +26,22 @@ def normalize_dataset(dataset):
     dataset = np.divide(dataset-min_col,max_col-min_col)
     return dataset
 
-def cross_validation_split(dataset,n_splits):
-    
+def cross_validation_split(dataset,n_folds):
+    dataset_split=list()
+    dataset_copy = dataset
+    fold_size = int(len(dataset)/n_folds)
+    i=0
+    for n in xrange(n_folds):
+        folds=dataset_copy[i:fold_size+1]
+        i = (i+1)*(fold_size+1)
+        dataset_split.append(folds)
+        
+        
 
-def predict(x,parameters):
+    
+def coefficient_sgd(train,l_rate,n_epoch):
+    coef=np.array([np.random.randn(len(train[0]),1)])
+    
     
 
 
