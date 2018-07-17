@@ -36,7 +36,7 @@ def cross_validation_split(dataset,n_folds):
         i = (i+1)*(fold_size+1)
         dataset_split.append(folds)
         
-        
+    print (dataset_split[0])    
 
     
 def coefficient_sgd(train,l_rate,n_epoch):
@@ -48,3 +48,4 @@ def coefficient_sgd(train,l_rate,n_epoch):
     
 df = load_data('winequality-white.csv')
 df = normalize_dataset(df)
+df = cross_validation_split(df,5)
