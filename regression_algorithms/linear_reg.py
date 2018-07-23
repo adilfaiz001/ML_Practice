@@ -100,7 +100,7 @@ def coefficients_sgd(train, l_rate, n_epoch):
 			coef[0] = coef[0] - l_rate * error
 			for i in range(len(row)-1):
 				coef[i + 1] = coef[i + 1] - l_rate * error * row[i]
-			# print(l_rate, n_epoch, error)
+			print(l_rate, n_epoch, error)
 	return coef
  
 # Linear Regression Algorithm With Stochastic Gradient Descent
