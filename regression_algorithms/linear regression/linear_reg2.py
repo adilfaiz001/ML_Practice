@@ -56,10 +56,16 @@ def coefficient_sgd(train,l_rate,n_epoch):
             for i in range(1,train.shape[1]):
                 coef[i] = coef[i] - l_rate * error * row[i] 
     return coef
-    
-def linear_regression_sgd(train,test,l_rate,n_epoch):    
+        
     
 def evaluate_algorithm(dataset,algorithm,n_folds,*args):
+    folds = cross_validation_split(dataset,n_folds)
+    scores = list()
+    for fold in folds():
+        train_set = list(folds)
+        train_set.remove(fold)
+        train_set = sum(train_set, [])
+        test_set = list()
 
     
 df = load_data('winequality-white.csv')
