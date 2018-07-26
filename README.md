@@ -28,5 +28,5 @@ Algorithms Grouped By Similarity:
 
 
 Machine Learning Algorithm Pathway
-![ML-algorithms-sheet]
-(http://scikit-learn.org/stable/_static/ml_map.png)
+
+![ML-algorithms-sheet](http://scikit-learn.org/stable/_static/ml_map.png)
