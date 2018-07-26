@@ -23,3 +23,10 @@ Algorithms Grouped By Similarity:
 
 
 ![Classification of algorithms under similarity group](https://steemitimages.com/DQmRux18T45yRdBCptRfSYqPqv33AQKAH4Fsd9bjeFYi6Lf/tour_ML.png)
+
+
+
+
+Machine Learning Algorithm Pathway
+![ML-algorithms-sheet]
+(http://scikit-learn.org/stable/_static/ml_map.png)
