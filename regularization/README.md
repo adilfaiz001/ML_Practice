@@ -26,3 +26,6 @@ Lasso is another extension built on regularized linear regression.
 ![LASSO](http://latex.codecogs.com/png.latex?%5Cinline%20L%20%3D%20%5Csum%20%28%5Chat%7BY_%7Bi%7D%7D-Y_%7Bi%7D%29%5E%7B2%7D%20&plus;%20%5Clambda%20%5Csum%20%5Cleft%20%7C%20%5Cbeta%20%5Cright%20%7C%20%5E%7B2%7D)
 
 The only difference from Ridge regression is that the regularization term is in absolute value. But this difference has a huge impact on the trade-off we’ve discussed before. Lasso method overcomes the disadvantage of Ridge regression by not only punishing high values of the coefficients β but actually setting them to zero if they are not relevant. Therefore, you might end up with fewer features included in the model than you started with, which is a huge advantage.
+
+
+## 3. Elastic Net ##
