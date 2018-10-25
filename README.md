@@ -23,7 +23,7 @@ A model is prepared by deducing structures present in the input data. This may b
 ### Machine Learning algorithms classified under similarity group
 ![Classification of algorithms under similarity group](https://steemitimages.com/DQmRux18T45yRdBCptRfSYqPqv33AQKAH4Fsd9bjeFYi6Lf/tour_ML.png)
 
-Machine Learning Algorithm Pathway
+### Machine Learning Algorithm Pathway
 
 ![ML-algorithms-sheet](http://scikit-learn.org/stable/_static/ml_map.png)
 
