@@ -12,13 +12,37 @@ Input data is called training data and has a known label or result such as spam/
 
 A model is prepared through a training process in which it is required to make predictions and is corrected when those predictions are wrong. The training process continues until the model achieves a desired level of accuracy on the training data.
 
+#### Supervised                                                 
+                                                                  
+  REGRESSION            | CLASSIFICATION          |               
+  ------------------    | ----------------------  |
+  Linear Regreassion    | SVM                     |
+  GLM                   | Naive Bayes             |   
+  SVR                   | Nearest Neighbour       | 
+  GPR                   | Discriminant Analysis   |
+  Ensembel Methods      | Neural Network          |
+  Decision Tress        |                         |
+  Neural Network        |                         |
+
+
 ## Unsupervised Learning
 Input data is not labeled and does not have a known result.
 
 A model is prepared by deducing structures present in the input data. This may be to extract general rules. It may be through a mathematical process to systematically reduce redundancy, or it may be to organize data by similarity.
 
-### Classification of Algorithms
-![Classification of algorithms under learning styles category](https://cdn-images-1.medium.com/max/477/1*KFQI59Yv7m1f3fwG68KSEA.jpeg)
+#### Unsupervised
+
+  CLUSTERING            |                
+  ------------------    | 
+  k-Means               |
+  k-Medoids             | 
+  Hierarchial           |
+  Gaussian Mixture      |
+  Hidden Markov Model   |
+  Neural Networks       |
+
+
+
 
 ### Machine Learning algorithms classified under similarity group
 ![Classification of algorithms under similarity group](https://steemitimages.com/DQmRux18T45yRdBCptRfSYqPqv33AQKAH4Fsd9bjeFYi6Lf/tour_ML.png)
