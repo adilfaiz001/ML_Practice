@@ -48,5 +48,3 @@ where α, alpha, is the learning rate, or how quickly we want to move towards th
 ![Gradient Descent Visualization](https://cdn-images-1.medium.com/max/1600/1*WGHn1L4NveQ85nn3o7Dd2g.png)
 
 
-
-## Logistic Regression ##
