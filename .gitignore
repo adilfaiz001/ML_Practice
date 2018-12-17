@@ -1,4 +1,3 @@
 .project
-.pydevproject
-src
-X.Datasets/
+.ipynb_checkpoints
+X.Datasets
